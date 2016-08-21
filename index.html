@@ -5,7 +5,7 @@
     <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
-    <title>Your page title here :)</title>
+    <title>Portfolio Page</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Mobile Specific Metas
@@ -22,16 +22,44 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png"> </head>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- SCRIPTS------------------>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 
 <body>
+    <!-- ––––––––––––––––––––––––NAVIGATION BAR–––––––––––––––––––––– -->
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#">George Loaiza</a> </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#gallery">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <!-- ––––––––––––––––––––––––HERO–––––––––––––––––––––– -->
     <section id="hero">
         <div class="container">
-            <div class="row">
+            <div class="row hold">
                 <div class="col-md-3  .col-md-offset-3 hero-text">
                     <h1>George Loaiza</h1>
-                    <h2>Front End Developer</h2> </div>
+                    <h2>Front End Developer</h2>
+                    <a href="#gallery">
+                        <button type="button">Check out my work!</button>
+                    </a>
+                    <a href="#contact">
+                        <button type="button">Get in touch!</button>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -73,7 +101,54 @@
                     </div>
                 </div>
             </div>
-            <div class="gallery-pictures">
+            <div class="gallery-thumb">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="title-block">
+                            
+                            <div id="quote" class="gallery-block"> </div><p>Random Quote Machine</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="title-block">
+                            
+                            <div id="weather" class="gallery-block"> </div><p>Local Weather</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="title-block">
+                        <div id="wiki" class="gallery-block"> </div><p>Wikipedia Viewer</p>
+                    </div></div>
+                    <div class="col-md-3">
+                        
+                        <div class="title-block">
+                        <div id="twitch" class="gallery-block"> </div>
+                            <p>Twitch.tv Viewer</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-md-offset-3">
+                        <div class="title-block">
+                            <div id="calculator" class="gallery-block"></div>
+                            <p>Javascript Calculator</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="title-block">
+                            
+                            <div id="pomodoro" class="gallery-block"> </div><p>Pomodoro Timer</p>
+                        </div>
+                    </div>
+                   
+                </div>
+                <!--<div class="col-md-3">
+                        <div class="gallery-block"> </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="gallery-block"> </div>
+                    </div>--></div>
+        </div>
+        <!-- <div class="gallery-pictures">
                 <div class="row">
                     <div class="col-md-3 well">
                         <div class="thumb">
@@ -100,8 +175,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div> --></div>
     </section>
     <!-- ------------------------CONTACT------------------------------->
     <section id="contact">
@@ -114,18 +188,18 @@
                             <div class="form-group">
                                 <label class="col-lg-2 control-label" for="name">Name:</label>
                                 <div class="col-lg-10">
-                                    <input type="text" class="form-control" id="name" placeholder="name"> </div>
+                                    <input type="text" class="form-control" id="name"> </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-lg-2 control-label" for="email">Email:</label>
                                 <div class="col-lg-10">
-                                    <input type="text" class="form-control" id="email" placeholder="email"> </div>
+                                    <input type="text" class="form-control" id="email"> </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-lg-2 control-label" for="message">Message:</label>
                                 <div class="col-lg-10">
-                                    <textarea class="form-control" placeholder="message" id="message" rows="3"></textarea>
-                                    <button class ="btn btn-primary pull-right send-button" type = "submit">Send</button> 
+                                    <textarea class="form-control" placeholder="Send button currently does nothing, need backend host to implement this. Sorry for any inconvenience! " id="message" rows="3"></textarea>
+                                    <button class="btn btn-primary pull-right send-button" type="submit">Send</button>
                                 </div>
                             </div>
                         </form>
@@ -134,27 +208,15 @@
                 <div class="col-md-6">
                     <div class="row contact-social">
                         <div class="col-xs-12 buttons">
-                            <div class = "col-xs-12">
-                                <a href="https://www.freecodecamp.com/xchendo" target="_blank" id="freecodecamp" role="button" class="btn btn-default btn-lg freecodecamp-btn">
-                                   <i class="fa fa-fire" aria-hidden="true"></i><span> FreeCodeCamp</span>
-                                </a>
-                           </div>
-                            
-                           <div class="col-xs-12">
-                                <a href="http://codepen.io/xchendo/" target="_blank" id="codepen" role="button" class="btn btn-default btn-lg codepen-btn">
-                                   <i class="fa fa-codepen" aria-hidden="true"></i><span>CodePen</span>
-                                </a>
-                           </div>
-                            
                             <div class="col-xs-12">
-                                <a href="https://github.com/xchendo" target="_blank" id="github" role="button" class="btn btn-default btn-lg github-btn">
-                                   <i class="fa fa-github" aria-hidden="true"></i><span> Github</span>
-                                </a>
+                                <a href="https://www.freecodecamp.com/xchendo" target="_blank" id="freecodecamp" role="button" class="btn btn-default btn-lg freecodecamp-btn"> <i class="fa fa-fire" aria-hidden="true"></i><span> FreeCodeCamp</span> </a>
                             </div>
-                            
-                             
-                            
-                            
+                            <div class="col-xs-12">
+                                <a href="http://codepen.io/xchendo/" target="_blank" id="codepen" role="button" class="btn btn-default btn-lg codepen-btn"> <i class="fa fa-codepen" aria-hidden="true"></i><span>CodePen</span> </a>
+                            </div>
+                            <div class="col-xs-12">
+                                <a href="https://github.com/xchendo" target="_blank" id="github" role="button" class="btn btn-default btn-lg github-btn"> <i class="fa fa-github" aria-hidden="true"></i><span> Github</span> </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -163,7 +225,7 @@
     </section>
     <!-- ------------------------Footer------------------------------->
     <footer>
-        <p>Coded with <i class = "fa fa-heartbeat" aria-hidden="true"></i> from Spring Valley</p>
+        <p>Coded with <i class="fa fa-heartbeat" aria-hidden="true"></i> from Spring Valley</p>
     </footer>
 </body>
 

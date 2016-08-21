@@ -54,14 +54,17 @@ p{
 }
 
 
+
+
 /*----------Landing----------*/
 #hero{
   
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/images/desktop-view.jpg); 
     /*50% 0 repeat fixed;*/
-  background-size: cover;
+  background-size:cover;
   background-position: center;
   height: 100vh;
+    width: 100%;
     
     /*;
     background-attachment: fixed;*/
@@ -69,16 +72,28 @@ p{
 
 .hero-text{   
     left: 0;
-    line-height: 200px;
+    line-height: 100px;
     margin-top: -100px;
     position: absolute;
     text-align: center;
     top: 50%;
     width: 100%;
-    
     font-weight: bolder;
 }
 
+#hero button{
+    
+    padding: 5px 5px;
+    line-height: 50px;
+    background-color: transparent;
+    border: 3px solid red;
+    border-radius: 25px;
+    color: white;  
+}
+
+#hero button:hover{
+    color: #d30035;
+}
 
 /*----------ABOUT----------*/
 #about{
@@ -149,7 +164,54 @@ p{
     
     
 }*/
+.gallery-thumb{
 
+}
+
+.gallery-block{
+    width: 300px;
+    height: 300px;
+    margin: 0px auto 0px auto;
+}
+
+#quote{
+    background-image: url(/images/gallery/random-quote-machine.png);
+    background-size: contain;
+}
+
+#weather{
+    background-image: url(/images/gallery/local-weather.png);
+    background-size: contain;
+}
+
+#wiki{
+    background-image:url(/images/gallery/wiki-viewer-2.png);
+    background-size: contain;
+}
+
+#twitch{
+    background-image: url(/images/gallery/twitch-viewer-2.png);
+    background-size: contain;
+}
+
+#calculator{
+    background-image: url(/images/gallery/calculator.png);
+    background-size: contain;
+    margin-bottom:0px;
+}
+
+#pomodoro{
+    background-image: url(/images/gallery/pomodoro.png);
+    background-size: cover;
+}
+
+.title-block{
+    background-color: #F4F4F4;
+    display: inline-block;
+    border: 1px solid #d30035;
+    margin-bottom: 35px;
+    
+}
 
 .well:hover{
     background: rgba(255, 255, 255, 0.5);
