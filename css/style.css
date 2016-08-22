@@ -1,3 +1,11 @@
+/*-------COLORS--------
+
+Attention Color: #d30035
+Background: #F4F4F4
+
+
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +24,7 @@
 
 body{
    font-size: 220%;
+    font-family: 'Raleway',serif;
     color: #373737 ;
     background-color: #F4F4F4;
     
@@ -88,11 +97,13 @@ p{
     background-color: transparent;
     border: 3px solid red;
     border-radius: 25px;
-    color: white;  
+    color: white;
+    transition: background-color 0.7s, border 0.7s, color 0.7s;
 }
 
 #hero button:hover{
     color: #d30035;
+   
 }
 
 /*----------ABOUT----------*/
@@ -124,11 +135,17 @@ p{
     
 }
 
+#js-logo,
+#bootstrap-logo,
+#jquery-logo{
+    margin-right: 30px;
+}
+
 /*----------GALLERY----------*/
 
 #gallery{
     text-align: center;
-    background-color: white;
+    background-color: rgba(164, 164, 164, 0.31);
     height: 100%;
     
 }
@@ -141,20 +158,9 @@ p{
     margin-bottom: 55px;
 }
 
-.gallery-pictures{
-    display: inline-block;
-    margin: 0 auto;
-    background-color: white;
-    
-}
 
-#gallery img{
-    height: auto;
-    width: 320px;   
-    margin: 10px auto;
-    overflow: hidden;
-   
-}
+
+
 
 /*#gallery img:hover{
     -webkit-transform: scale(1.15);
@@ -164,9 +170,7 @@ p{
     
     
 }*/
-.gallery-thumb{
 
-}
 
 .gallery-block{
     width: 300px;
@@ -208,17 +212,24 @@ p{
 .title-block{
     background-color: #F4F4F4;
     display: inline-block;
-    border: 1px solid #d30035;
+    border: 1px solid black;
     margin-bottom: 35px;
     
 }
 
-.well:hover{
-    background: rgba(255, 255, 255, 0.5);
-    color: #d30035;
+
+.title-block a
+{
+    color:black;
+    text-decoration: none;
     
 }
 
+.title-block a:hover{
+    text-decoration: none;
+    
+   
+}
 
 /*----------CONTACT----------*/
 
@@ -229,7 +240,7 @@ p{
 #contact h2{  
     text-align: center;
     font-weight: bolder;
-    margin-bottom: 55px;
+    margin-bottom: -5px;
 }
 
 
@@ -266,7 +277,7 @@ a.btn-default:hover:after { width: 100%; }
 /*----------Footer----------*/
 footer{
     color: #d30035;
-    
+    background-color: rgba(164, 164, 164, 0.31);
     height: 100%;
     text-align: center;
     font-size: 80%;

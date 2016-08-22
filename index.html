@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -36,7 +37,7 @@
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#">George Loaiza</a> </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav navbar-right">
                         <li class="active"><a href="#">Home</a></li>
                         <li><a href="#about">About Me</a></li>
                         <li><a href="#gallery">Projects</a></li>
@@ -54,10 +55,10 @@
                     <h1>George Loaiza</h1>
                     <h2>Front End Developer</h2>
                     <a href="#gallery">
-                        <button type="button">Check out my work!</button>
+                        <button type="button">Check out my work</button>
                     </a>
                     <a href="#contact">
-                        <button type="button">Get in touch!</button>
+                        <button type="button">Get in touch</button>
                     </a>
                 </div>
             </div>
@@ -84,7 +85,8 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <div class="logos"> <img class="skill-logos" id="html-logo" src="images/html_logo.png"> <img class="skill-logos" id="css-logo" src="images/css_logo.png"> <img class=" skill-logos" id="js-logo" src="images/js-logo.jpg"> </div>
+                    <h2>Skillset</h2>
+                    <div class="logos"> <img class="skill-logos" id="html-logo" src="images/skills-logos/html_logo.png"> <img class="skill-logos" id="css-logo" src="images/skills-logos/css_logo.png"><img class=" skill-logos" id="js-logo" src="images/skills-logos/js-logo.jpg"><img class="skill-logos" id="bootstrap-logo" src="images/skills-logos/Boostrap_logo.png"> <img class=" skill-logos" id="jquery-logo" src="images/skills-logos/jquery-logo.jpg"> </div>
                 </div>
             </div>
         </div>
@@ -96,47 +98,51 @@
                 <div class="col-md-12">
                     <div class="gallery-heading">
                         <div>
-                            <h2>Ziplines</h2>
-                            <h3>Intermediate Front End Development Projects </h3></div>
+                            <h2>Projects</h2>
+                            <h3>FreeCodeCamp Front End Projects </h3></div>
                     </div>
                 </div>
             </div>
             <div class="gallery-thumb">
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="title-block">
-                            
-                            <div id="quote" class="gallery-block"> </div><p>Random Quote Machine</p>
+                        
+                        <div class="title-block hvr-underline-reveal">
+                        <a href="http://codepen.io/xchendo/debug/BzRRgz/" target="_blank">    
+                           <div id="quote" class="gallery-block"> </div><p>Random Quote Machine</p></a>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="title-block">
-                            
-                            <div id="weather" class="gallery-block"> </div><p>Local Weather</p>
+                        <div class="title-block hvr-underline-reveal">
+                            <a href="http://codepen.io/xchendo/debug/Lkjmvb/" target="_blank">
+                            <div id="weather" class="gallery-block "> </div><p>Local Weather</p></a>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="title-block">
-                        <div id="wiki" class="gallery-block"> </div><p>Wikipedia Viewer</p>
+                        <div class="title-block hvr-underline-reveal">
+                            <a href="http://codepen.io/xchendo/debug/LkzgNR/" target="_blank">
+                        <div id="wiki" class="gallery-block hvr-bob"> </div><p>Wikipedia Viewer</p></a>
                     </div></div>
                     <div class="col-md-3">
                         
-                        <div class="title-block">
+                        <div class="title-block hvr-underline-reveal">
+                            <a href="http://codepen.io/xchendo/debug/zBjXgd/" target="_blank">
                         <div id="twitch" class="gallery-block"> </div>
-                            <p>Twitch.tv Viewer</p>
+                            <p>Twitch.tv Viewer</p></a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-3 col-md-offset-3">
-                        <div class="title-block">
+                        <div class="title-block hvr-underline-reveal">
+                            <a href="http://s.codepen.io/xchendo/debug/yJxKYr" target="_blank">
                             <div id="calculator" class="gallery-block"></div>
-                            <p>Javascript Calculator</p>
+                            <p>Javascript Calculator</p></a>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="title-block">
-                            
-                            <div id="pomodoro" class="gallery-block"> </div><p>Pomodoro Timer</p>
+                        <div class="title-block hvr-underline-reveal">
+                            <a href="http://s.codepen.io/xchendo/debug/wWNqRW" target="_blank">
+                            <div id="pomodoro" class="gallery-block"> </div><p>Pomodoro Timer</p></a>
                         </div>
                     </div>
                    
@@ -180,10 +186,12 @@
     <!-- ------------------------CONTACT------------------------------->
     <section id="contact">
         <div class="container-fluid">
-            <h2>Contact</h2>
+            <h2>Contact Me</h2>
             <div class="row">
                 <div class="col-md-6">
+                    <h3 style="text-align:center">Using this form..</h3>        
                     <div class="contact-input">
+                
                         <form class="form-horizontal" role="form">
                             <div class="form-group">
                                 <label class="col-lg-2 control-label" for="name">Name:</label>
@@ -207,6 +215,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="row contact-social">
+                        <h3 style="text-align:center">Or at one of these websites!</h3>        
                         <div class="col-xs-12 buttons">
                             <div class="col-xs-12">
                                 <a href="https://www.freecodecamp.com/xchendo" target="_blank" id="freecodecamp" role="button" class="btn btn-default btn-lg freecodecamp-btn"> <i class="fa fa-fire" aria-hidden="true"></i><span> FreeCodeCamp</span> </a>
