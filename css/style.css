@@ -69,7 +69,8 @@ h2{
     padding: 10px 30px;
     text-decoration: none;
     border-radius: 200px;
-    color: #fff; 
+    color: #fff;
+    margin: 10px;
 }
 
 .btn-round-full:link,
