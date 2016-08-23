@@ -1,38 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta charset="utf-8">
-    <title>Portfolio Page</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-    <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <head>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <!-- SCRIPTS------------------>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-
-<body>
-    <!-- ––––––––––––––––––––––––NAVIGATION BAR–––––––––––––––––––––– -->
-    <header>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            
+             <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#">George Loaiza</a> </div>
@@ -46,26 +23,21 @@
                 </div>
             </div>
         </nav>
-    </header>
-    <!-- ––––––––––––––––––––––––HERO–––––––––––––––––––––– -->
-    <section id="hero">
-        <div class="container">
-            <div class="row hold">
-                <div class="col-md-3  .col-md-offset-3 hero-text">
-                    <h1>George Loaiza</h1>
-                    <h2>Front End Developer</h2>
-                    <a href="#gallery">
-                        <button type="button">Check out my work</button>
+            
+            <div class="hero-text-box">
+                <h1>George Loaiza</h1>
+                <h2>Front End Engineer</h2>
+                 <a class="btn-round btn-round-full" href="#">
+                       Check out my work
                     </a>
-                    <a href="#contact">
-                        <button type="button">Get in touch</button>
+                    <a class="btn-round btn-round-ghost" href="#">
+                       Get in touch
                     </a>
-                </div>
             </div>
-        </div>
-    </section>
-    <!-- -----------------------ABOUT --------------------------------->
-    <section id="about" class="clearfix">
+        </header>
+        
+        <!-- ABOUT -->
+        <section id="about" class="clearfix">
         <div class="container-fluid wrapper-about">
             <div class="row">
                 <div class="col-md-12">
@@ -91,7 +63,7 @@
             </div>
         </div>
     </section>
-    <!-- ------------------------GALLERY------------------------------->
+         <!-- ------------------------GALLERY------------------------------->
     <section id="gallery" class="clearfix">
         <div class="container-fluid wrapper-gallery">
             <div class="row">
@@ -106,92 +78,67 @@
             <div class="gallery-thumb">
                 <div class="row">
                     <div class="col-md-3">
-                        
                         <div class="title-block hvr-underline-reveal">
-                        <a href="http://codepen.io/xchendo/debug/BzRRgz/" target="_blank">    
-                           <div id="quote" class="gallery-block"> </div><p>Random Quote Machine</p></a>
+                            <a href="http://codepen.io/xchendo/debug/BzRRgz/" target="_blank">
+                                <div id="quote" class="gallery-block"> </div>
+                                <p>Random Quote Machine</p>
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="title-block hvr-underline-reveal">
                             <a href="http://codepen.io/xchendo/debug/Lkjmvb/" target="_blank">
-                            <div id="weather" class="gallery-block "> </div><p>Local Weather</p></a>
+                                <div id="weather" class="gallery-block "> </div>
+                                <p>Local Weather</p>
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="title-block hvr-underline-reveal">
                             <a href="http://codepen.io/xchendo/debug/LkzgNR/" target="_blank">
-                        <div id="wiki" class="gallery-block hvr-bob"> </div><p>Wikipedia Viewer</p></a>
-                    </div></div>
+                                <div id="wiki" class="gallery-block hvr-bob"> </div>
+                                <p>Wikipedia Viewer</p>
+                            </a>
+                        </div>
+                    </div>
                     <div class="col-md-3">
-                        
                         <div class="title-block hvr-underline-reveal">
                             <a href="http://codepen.io/xchendo/debug/zBjXgd/" target="_blank">
-                        <div id="twitch" class="gallery-block"> </div>
-                            <p>Twitch.tv Viewer</p></a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 col-md-offset-3">
-                        <div class="title-block hvr-underline-reveal">
-                            <a href="http://s.codepen.io/xchendo/debug/yJxKYr" target="_blank">
-                            <div id="calculator" class="gallery-block"></div>
-                            <p>Javascript Calculator</p></a>
+                                <div id="twitch" class="gallery-block"> </div>
+                                <p>Twitch.tv Viewer</p>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="title-block hvr-underline-reveal">
-                            <a href="http://s.codepen.io/xchendo/debug/wWNqRW" target="_blank">
-                            <div id="pomodoro" class="gallery-block"> </div><p>Pomodoro Timer</p></a>
+                    <div class="row">
+                        <div class="col-md-3 col-md-offset-3">
+                            <div class="title-block hvr-underline-reveal">
+                                <a href="http://s.codepen.io/xchendo/debug/yJxKYr" target="_blank">
+                                    <div id="calculator" class="gallery-block"></div>
+                                    <p>Javascript Calculator</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="title-block hvr-underline-reveal">
+                                <a href="http://s.codepen.io/xchendo/debug/wWNqRW" target="_blank">
+                                    <div id="pomodoro" class="gallery-block"> </div>
+                                    <p>Pomodoro Timer</p>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                   
-                </div>
-                <!--<div class="col-md-3">
-                        <div class="gallery-block"> </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="gallery-block"> </div>
-                    </div>--></div>
+                   </div>
+            </div>
         </div>
-        <!-- <div class="gallery-pictures">
-                <div class="row">
-                    <div class="col-md-3 well">
-                        <div class="thumb">
-                            <a href="http://codepen.io/xchendo/full/BzRRgz" target="_blank"><img id="random-quote-machine" class="img-responsive" src="images/local-weather-2.png"></a>
-                            <p>Random Quote Machine</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 well">
-                        <div class="thumb">
-                            <a href="http://codepen.io/xchendo/full/Lkjmvb/" target="_blank"><img id="local-weather" class="img-responsive" src="images/random-quote-machine-2.png"></a>
-                            <p>Local Weather</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 well">
-                        <div class="thumb">
-                            <a href="http://codepen.io/xchendo/full/LkzgNR/" target="_blank"><img id="wiki-viewer" class="img-responsive" src="images/wiki-viewer-2.png"></a>
-                            <p>Wikipedia Viewer</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 well">
-                        <div class="thumb">
-                            <a href="http://codepen.io/xchendo/full/zBjXgd/" target="_blank"><img id="twitch-viewer" class="img-responsive" src="images/twitch-viewer-2.png"></a>
-                            <p>Twitch.tv Viewer</p>
-                        </div>
-                    </div>
-                </div>
-            </div> --></div>
     </section>
-    <!-- ------------------------CONTACT------------------------------->
+         <!-- ------------------------CONTACT------------------------------->
     <section id="contact">
         <div class="container-fluid">
             <h2>Contact Me</h2>
             <div class="row">
                 <div class="col-md-6">
-                    <h3 style="text-align:center">Using this form..</h3>        
+                    <h3 style="text-align:center">Using this form..</h3>
                     <div class="contact-input">
-                
                         <form class="form-horizontal" role="form">
                             <div class="form-group">
                                 <label class="col-lg-2 control-label" for="name">Name:</label>
@@ -215,7 +162,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="row contact-social">
-                        <h3 style="text-align:center">Or at one of these websites!</h3>        
+                        <h3 style="text-align:center">Or at one of these websites!</h3>
                         <div class="col-xs-12 buttons">
                             <div class="col-xs-12">
                                 <a href="https://www.freecodecamp.com/xchendo" target="_blank" id="freecodecamp" role="button" class="btn btn-default btn-lg freecodecamp-btn"> <i class="fa fa-fire" aria-hidden="true"></i><span> FreeCodeCamp</span> </a>
@@ -236,6 +183,5 @@
     <footer>
         <p>Coded with <i class="fa fa-heartbeat" aria-hidden="true"></i> from Spring Valley</p>
     </footer>
-</body>
-
+    </body>
 </html>
