@@ -60,38 +60,48 @@ h2{
     font-size: 210%;
 }
 
-
-
-.btn-round:link,
-.btn-round:visited{
+.btn-round{
     display: inline-block;
-    font-weight: 300;
     padding: 10px 30px;
+    font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
-    color: #fff;
-    margin: 10px;
 }
+
+
 
 .btn-round-full:link,
 .btn-round-full:visited{
+    background-color: #007edc;
   border: 1px solid #007edc;
-    color: #007edc;
+    color: white;
+    text-decoration: none;
 }
 
 .btn-round-ghost:link,
 .btn-round-ghost:visited{
     border: 1px solid #007edc;
-    background-color: #007edc;
+   text-decoration: none;
     color: white;
 }
 
-.btn-round:hover,
-.btn-round:visited{
-    background-color: #003a65;
+.btn-round-full:hover,
+.btn-round-full:active{
+
     border: 1px solid #003a65;
+    background-color: #003a65;
+    text-decoration: none;
     
 }
+
+.btn-round-ghost:hover,
+.btn-round-ghost:active{
+    background-color: #003a65;
+    border: 1px solid #003a65;
+    text-decoration: none;
+    
+}
+
 
 /****** ABOUT ******/ 
 
