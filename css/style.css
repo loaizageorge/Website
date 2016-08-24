@@ -66,6 +66,7 @@ h2{
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
+    margin: 8px;
 }
 
 
@@ -155,40 +156,40 @@ h2{
 }
 
 .gallery-block{
-    width: 300px;
+    width: auto;
     height: 300px;
     margin: 0px auto 0px auto;
 }
 
 #quote{
-    background-image: url(/images/gallery/random-quote-machine.png);
-    background-size: contain;
+    
+    
 }
 
 #weather{
-    background-image: url(/images/gallery/local-weather.png);
-    background-size: contain;
+    
+  
 }
 
 #wiki{
-    background-image:url(/images/gallery/wiki-viewer-2.png);
-    background-size: contain;
+   
+   
 }
 
 #twitch{
-    background-image: url(/images/gallery/twitch-viewer-2.png);
-    background-size: contain;
+    
+   
 }
 
 #calculator{
-    background-image: url(/images/gallery/calculator.png);
-    background-size: contain;
-    margin-bottom:0px;
+   
+    
+    
 }
 
 #pomodoro{
-    background-image: url(/images/gallery/pomodoro.png);
-    background-size: cover;
+    
+   
 }
 
 .title-block{
