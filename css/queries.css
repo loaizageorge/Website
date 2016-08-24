@@ -16,7 +16,7 @@
 /*Small phones/tablets - 481px-767px
 *****************************/
 
-/*@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px){
     
     #about{
     
@@ -44,11 +44,22 @@
     margin: 10px;
     
 }
+    
+    .gallery-block{
+    width: 380px;
+    height: 380px;
+    margin: 0px auto 0px auto;
+}
+    
+    .about-profile img{
+        height: 300px;
+        width:auto;
+    }
 }
 
 /*Small phones - less than or equal to 480px
 *****************************/
-/*
+
 @media only screen and (max-width: 480px){
     .skill-logos{
     height: 25px;
