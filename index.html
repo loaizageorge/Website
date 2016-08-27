@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- SCRIPTS------------------>
@@ -26,7 +27,7 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body data-spy="spyscroll" data-target="navbar">
     <header>
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
@@ -34,7 +35,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#">George Loaiza</a> </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
                         <li><a href="#about">About Me</a></li>
                         <li><a href="#gallery">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
@@ -43,88 +44,146 @@
             </div>
         </nav>
         <div class="container-fluid ">
-            <div class="hero-text-box clearfix">
-                <h1>George Loaiza</h1>
-                <h2>Front End Engineer</h2> <a class="btn-round btn-round-ghost" href="#gallery">
+            <div class="hero-text-box clearfix row">
+                <div class="col-sm-12">
+                    <h1>George Loaiza</h1>
+                    <h2>Front End Engineer</h2> <a class="btn-round btn-round-ghost" href="#gallery">
                        Check out my work
                     </a> <a class="btn-round btn-round-full " href="#contact">
                        Get in touch
                     </a> </div>
+            </div>
         </div>
     </header>
     <!-- ABOUT -->
     <section id="about" class="clearfix">
-        <div class="container-fluid wrapper-about">
-            <div class="row">
-                <div class="col-sm-12 col-md-12">
-                    <div class="about-profile">
-                        <div>
-                            <h2>About Me</h2> <img id="profile" class="img-thumbnail img-responsive" src="images/profile.jpg"> </div>
-                    </div>
+    <div class="container-fluid">
+        <h2>About Me</h2>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-2"> <img id="profile" class="img-thumbnail img-responsive" src="images/profile.jpg"></div>
+                
+                    <div class="col-md-4">
+                        
+                    <p>My name is George Loaiza. Here is a small blurb that i will write when i know what to say. My lorem ipsum was two paragraphs long and i feel like this is a better representation of what my actual content would look like.My name is George Loaiza. Here is a small blurb that i will write when i know what to say. My lorem ipsum was two paragraphs long and i feel like this is a better representation of what my actual content would look like.</p>
+                
+                <div class="icons">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="icon-block">
+                            <p>HTML5</p><i class="devicon-html5-plain colored icon"></i></div>
+                            
+                        <div class="icon-block">
+                            <p>CSS3</p><i class="devicon-css3-plain colored icon"></i></div>
+                    
+                    <div class="icon-block">
+                        <p>Javascript</p><i class="devicon-javascript-plain colored icon"></i></div>
+                 <div class="icon-block">
+                     <p>jQuery</p><i class="devicon-jquery-plain colored icon"></i></div> 
+                    <div class="icon-block">
+                        <p>Bootstrap</p><i class="devicon-bootstrap-plain colored icon"></i></div>
+                            
+                    <div class="icon-block">
+                        <p>Git</p><i class="devicon-git-plain colored icon"></i></div></div></div></div></div>
+                </div>
+             
+            </div>
+        
+</section>
+    <!--
+    
+    <section id="about" class="clearfix">
+        
+            <div class="container-fluid wrapper-about">
+                <div class="row">
+                <div class="about-profile">
+                    <div>
+                        <h2>About Me</h2> <img id="profile" class="img-thumbnail img-responsive" src="images/profile.jpg"> </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-12">
                     <div class="about-text">
-                        <p>My name is George Loaiza. Here is a small blurb that i will write when i know what to say.
-                        My lorem ipsum was two paragraphs long and i feel like this is a better representation of what my actual
-                        content would look like.</p>
+                        <p>My name is George Loaiza. Here is a small blurb that i will write when i know what to say. My lorem ipsum was two paragraphs long and i feel like this is a better representation of what my actual content would look like.</p>
                     </div>
                 </div>
             </div>
-            
             <div class="row">
                 <div class="col-sm-12 col-md-12">
-                    <h2>Skillset</h2>
-                    <div class="logos"> <img class="skill-logos" id="html-logo" src="images/skills-logos/html_logo.png"> <img class="skill-logos" id="css-logo" src="images/skills-logos/css_logo.png"><img class=" skill-logos" id="js-logo" src="images/skills-logos/js-logo.jpg"><img class="skill-logos" id="bootstrap-logo" src="images/skills-logos/Boostrap_logo.png"> <img class=" skill-logos" id="jquery-logo" src="images/skills-logos/jquery-logo.jpg"> </div>
+                    <div class="skillset">
+                        <h2>Skillset</h2>
+                     
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <p>HTML5</p><i class="devicon-html5-plain colored icon"></i></div>
+                            <div class="col-sm-2">
+                                <p>CSS3</p><i class="devicon-css3-plain colored icon"></i></div>
+                            <div class="col-sm-2">
+                                <p>Javascript</p><i class="devicon-javascript-plain colored icon"></i></div>
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <p>Bootstrap</p><i class="devicon-bootstrap-plain colored icon"></i></div>
+                                <div class="col-sm-2">
+                                    <p>jQuery</p><i class="devicon-jquery-plain colored icon"></i></div>
+                                <div class="col-sm-2">
+                                    <p>Git</p><i class="devicon-git-plain colored icon"></i></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
             </div>
         </div>
-    </section>
+    </section>-->
     <!-- ------------------------GALLERY------------------------------->
     <section id="gallery" class="clearfix">
         <div class="container-fluid wrapper-gallery">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="gallery-heading">
-                        <div>
-                            <h2>Projects</h2>
-                            <h3>FreeCodeCamp Front End Projects </h3></div>
-                    </div>
-                </div>
+            <div class="gallery-heading">
+                <div>
+                    <h2>Projects</h2>
+                    <h3>FreeCodeCamp Front End Projects </h3></div>
             </div>
             <div class="gallery-thumb">
                 <div class="row">
                     <div class="col-sm-12 col-md-3">
                         <div class="title-block hvr-underline-reveal">
                             <a href="http://codepen.io/xchendo/debug/BzRRgz/" target="_blank">
-                                <div id="quote" class="thumbnail"><img class="img-responsive"src="images/gallery/quote.png">
-                               <div class="caption"> <p>Random Quote Machine</p> </div>  </div>
-                            </a>
-                        </div>
-                    </div>
-                     <div class="col-sm-12 col-md-3">
-                        <div class="title-block hvr-underline-reveal">
-                            <a href="http://codepen.io/xchendo/debug/LkzgNR/" target="_blank">
-                                <div id="weather" class="thumbnail"><img class="img-responsive"src="images/gallery/weather.png"> 
-                               <div class="caption"> <p>Local Weather</p></div></div>
+                                <div id="quote" class="thumbnail"><img class="img-responsive" src="images/gallery/quote.png">
+                                    <div class="caption">
+                                        <p>Random Quote Machine</p>
+                                    </div>
+                                </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-3">
                         <div class="title-block hvr-underline-reveal">
                             <a href="http://codepen.io/xchendo/debug/LkzgNR/" target="_blank">
-                                <div id="wiki" class="thumbnail"><img class="img-responsive"src="images/gallery/wiki.png"> 
-                               <div class="caption"> <p>Wikipedia Viewer</p></div></div>
+                                <div id="weather" class="thumbnail"><img class="img-responsive" src="images/gallery/weather.png">
+                                    <div class="caption">
+                                        <p>Local Weather</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="title-block hvr-underline-reveal">
+                            <a href="http://codepen.io/xchendo/debug/LkzgNR/" target="_blank">
+                                <div id="wiki" class="thumbnail"><img class="img-responsive" src="images/gallery/wiki.png">
+                                    <div class="caption">
+                                        <p>Wikipedia Viewer</p>
+                                    </div>
+                                </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-3">
                         <div class="title-block hvr-underline-reveal">
                             <a href="http://codepen.io/xchendo/debug/zBjXgd/" target="_blank">
-                                <div id="twitch" class="thumbnail"> <img class="img-responsive"src="images/gallery/twitch.png">
-                                <div class="caption"><p>Twitch.tv Viewer</p></div></div>
+                                <div id="twitch" class="thumbnail"> <img class="img-responsive" src="images/gallery/twitch.png">
+                                    <div class="caption">
+                                        <p>Twitch.tv Viewer</p>
+                                    </div>
+                                </div>
                             </a>
                         </div>
                     </div>
@@ -133,7 +192,10 @@
                             <div class="title-block hvr-underline-reveal">
                                 <a href="http://s.codepen.io/xchendo/debug/yJxKYr" target="_blank">
                                     <div id="calculator" class="thumbnail"><img class="img-responsive" src="images/gallery/calculator.png">
-                                    <div class="caption"><p>Javascript Calculator</p> </div></div>
+                                        <div class="caption">
+                                            <p>Javascript Calculator</p>
+                                        </div>
+                                    </div>
                                 </a>
                             </div>
                         </div>
@@ -141,7 +203,10 @@
                             <div class="title-block hvr-underline-reveal">
                                 <a href="http://s.codepen.io/xchendo/debug/wWNqRW" target="_blank">
                                     <div id="pomodoro" class="thumbnail"><img src="images/gallery/pomodoro.png">
-                                   <div class="caption"> <p>Pomodoro Timer</p> </div></div>
+                                        <div class="caption">
+                                            <p>Pomodoro Timer</p>
+                                        </div>
+                                    </div>
                                 </a>
                             </div>
                         </div>

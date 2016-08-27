@@ -66,11 +66,7 @@ h2{
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
-<<<<<<< HEAD
     margin: 8px;
-=======
-    margin: 10px;
->>>>>>> 287773d5d750411e8c9eff0e2321bb641a0ea09c
 }
 
 
@@ -140,6 +136,16 @@ h2{
 #bootstrap-logo,
 #jquery-logo{
     margin-right: 30px;
+}
+
+.icon{
+    font-size: 500%;
+}
+
+.skillset p{
+    display: block;
+    margin: none;
+    padding: none;
 }
 
 /*******GALLERY******/
