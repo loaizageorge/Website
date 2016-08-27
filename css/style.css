@@ -117,6 +117,64 @@ h2{
 
 #about h2{
     font-weight: bolder;
+    margin-bottom: 50px;
+  
+}
+img{
+  float:left;
+}
+.about-text{
+  
+    
+  
+   color:red; 
+  width: 80%;
+}
+.skill-logos{
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin-bottom: 25px;
+    
+}
+
+#js-logo,
+#bootstrap-logo,
+#jquery-logo{
+    margin-right: 30px;
+}
+
+.icons{
+  display:inline-block;
+}
+
+.icon{
+    font-size: 500%;
+  
+}
+.icon-block{
+  display:inline-block;
+}
+.skillset p{
+    display: block;
+    margin: none;
+    padding: none;
+}
+
+
+/*
+
+#about{
+    
+    background-color: #F4F4F4;
+    width: auto;
+    text-align: center;
+    height: 100%;
+    padding-top: -50px;    
+}
+
+#about h2{
+    font-weight: bolder;
     margin-bottom: 55px;
 }
 
@@ -146,7 +204,7 @@ h2{
     display: block;
     margin: none;
     padding: none;
-}
+} */ 
 
 /*******GALLERY******/
 
