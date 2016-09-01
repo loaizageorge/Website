@@ -178,6 +178,11 @@ h2{
 .title-block a:hover{
     text-decoration: none;  
 }
+
+#gallery img{
+    max-width: 453px;
+
+}
 /*----------CONTACT----------*/
 
 #contact{
