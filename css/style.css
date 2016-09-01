@@ -19,6 +19,10 @@ html,body{
     overflow-x: hidden; 
 }
 
+section{
+    padding-bottom: 50px;
+}
+
 .clearfix{ zoom: 1 }
 .clearfix:after {
 	content: ".";
@@ -30,8 +34,8 @@ html,body{
 }
 
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.7)),url(/images/desktop-view.jpg);
-    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.7)),url(/xchendo.github.io/images/hero.jpg);
+    height: 90vh;
     background-size: cover;
     background-position: center;
 }
@@ -120,29 +124,8 @@ h2{
     margin-bottom: 50px;
   
 }
-img{
-  float:left;
-}
-.about-text{
-  
-    
-  
-   color:red; 
-  width: 80%;
-}
-.skill-logos{
-    height: 150px;
-    width: 150px;
-    display: inline-block;
-    margin-bottom: 25px;
-    
-}
 
-#js-logo,
-#bootstrap-logo,
-#jquery-logo{
-    margin-right: 30px;
-}
+
 
 .icons{
   display:inline-block;
@@ -155,56 +138,7 @@ img{
 .icon-block{
   display:inline-block;
 }
-.skillset p{
-    display: block;
-    margin: none;
-    padding: none;
-}
 
-
-/*
-
-#about{
-    
-    background-color: #F4F4F4;
-    width: auto;
-    text-align: center;
-    height: 100%;
-    padding-top: -50px;    
-}
-
-#about h2{
-    font-weight: bolder;
-    margin-bottom: 55px;
-}
-
-.about-text{
-    margin: 25px auto;
-    width: 66%;
-}
-.skill-logos{
-    height: 150px;
-    width: 150px;
-    display: inline-block;
-    margin-bottom: 25px;
-    
-}
-
-#js-logo,
-#bootstrap-logo,
-#jquery-logo{
-    margin-right: 30px;
-}
-
-.icon{
-    font-size: 500%;
-}
-
-.skillset p{
-    display: block;
-    margin: none;
-    padding: none;
-} */ 
 
 /*******GALLERY******/
 
@@ -212,59 +146,22 @@ img{
     text-align: center;
     background-color: rgba(164, 164, 164, 0.31);
     height: 100%;
+    margin-bottom: -30px;
     
 }
 
-#gallery h2{
-    font-weight: bolder;
-}
 
 #gallery h3{
-    margin-bottom: 55px;
+    margin-bottom: 50px;
 }
 
-.gallery-block{
-    width: auto;
-    height: 300px;
-    margin: 0px auto 0px auto;
-}
 
-#quote{
-    
-    
-}
-
-#weather{
-    
-  
-}
-
-#wiki{
-   
-   
-}
-
-#twitch{
-    
-   
-}
-
-#calculator{
-   
-    
-    
-}
-
-#pomodoro{
-    
-   
-}
 
 .title-block{
     background-color: #F4F4F4;
     display: inline-block;
     border: 1px solid black;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
     
 }
 
