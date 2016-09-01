@@ -179,8 +179,8 @@ h2{
     text-decoration: none;  
 }
 
-#gallery img{
-    max-width: 453px;
+.thumbnail{
+    max-width: 433px;
 
 }
 /*----------CONTACT----------*/
