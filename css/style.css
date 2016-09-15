@@ -10,20 +10,22 @@
 }
 
 section{
-    padding-bottom: 50px;
+    padding-bottom: 35px;
+    padding-top: 35px;
 }
 
 
 html,body{
     font-family: 'Raleway',serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 16px;
     text-rendering: optimizeLegibility;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
-section{
-    padding-bottom: 50px;
+body{
+    padding-top: 50px;
+    text-align: center;
 }
 
 .clearfix{ zoom: 1 }
@@ -36,12 +38,16 @@ section{
     overflow: hidden;
 }
 
+/****** LANDING ******/
+
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.7)),url(/xchendo.github.io/images/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.7)),url(/images/gallery/hero.jpg);
     height: 90vh;
     background-size: cover;
     background-position: center;
 }
+
+
 
 .hero-text-box{
     position: absolute;
@@ -54,7 +60,7 @@ header{
 
 h1{
     margin: 0;
-    font-size: 240%;
+    font-size: 3em;
     font-weight: 300;
     color: white;
     text-transform: uppercase;
@@ -64,7 +70,7 @@ h1{
 
 h2{
     color: #007edc;
-    font-size: 210%;
+    font-size: 2em;
 }
 
 .btn-round{
@@ -81,7 +87,7 @@ h2{
 .btn-round-full:link,
 .btn-round-full:visited{
     background-color: #007edc;
-  border: 1px solid #007edc;
+    border: 1px solid #007edc;
     color: white;
     text-decoration: none;
 }
@@ -99,7 +105,7 @@ h2{
     border: 1px solid #003a65;
     background-color: #003a65;
     text-decoration: none;
-    
+
 }
 
 .btn-round-ghost:hover,
@@ -107,27 +113,30 @@ h2{
     background-color: #003a65;
     border: 1px solid #003a65;
     text-decoration: none;
-    
+
 }
 
 
-/****** ABOUT ******/ 
+/****** ABOUT ******/
 
 #about{
-    
+
     background-color: #F4F4F4;
     width: auto;
     text-align: center;
     height: 100%;
-    padding-top: -50px;    
+    padding-top: -50px;
 }
 
 #about h2{
     font-weight: bolder;
     margin-bottom: 50px;
-  
+
 }
 
+#about p{
+    font-size: 1.3rem
+}
 
 
 .icons{
@@ -136,7 +145,7 @@ h2{
 
 .icon{
     font-size: 500%;
-  
+
 }
 .icon-block{
   display:inline-block;
@@ -146,50 +155,91 @@ h2{
 /*******GALLERY******/
 
 #gallery{
-    text-align: center;
+
     background-color: rgba(164, 164, 164, 0.31);
     height: 100%;
     margin-bottom: -30px;
-    
+
 }
 
 
 #gallery h3{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 
 
-.title-block{
-    background-color: #F4F4F4;
-    display: inline-block;
-    border: 1px solid black;
-    margin-bottom: 30px;
-    
-}
 
-.title-block a
-{
-    color:black;
-    text-decoration: none;
-    
-}
 
-.title-block a:hover{
-    text-decoration: none;  
-}
 
-.thumbnail{
-    max-width: 433px;
+.caption{
+    position: relative;
+    overflow: hidden;
+    transform: translateZ(0);
 
 }
+
+.caption-media{
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.caption-overlay{
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    padding: 10px;
+    color:white;
+    transform: translateY(100%);
+    transition: transform .35s ease-out;
+    opacity: 0;
+}
+
+.caption:hover .caption-overlay,
+.caption:hover .caption-overlay h1{
+    transform: translateY(0);
+    color: white;
+    opacity: 1;
+}
+
+.caption-overlay-title{
+    margin: 0;
+    padding: 0 0 12px;
+    transform: translateY(calc(-100% - 10px));
+    transition: transform .35s ease-out;
+}
+
+.caption:hover .caption-overlay-title{
+    transform: translateY(0);
+}
+
+.caption::before{
+    content:' ';
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background: transparent;
+    transition: background .35s ease-out;
+}
+
+.caption:hover::before{
+    background: rgba(0,0,0,.7);
+}
+
+
 /*----------CONTACT----------*/
 
 #contact{
     background-color: #F4F4F4;
 }
 
-#contact h2{  
+#contact h2{
     text-align: center;
     font-weight: bolder;
     margin-bottom: -5px;
@@ -201,9 +251,17 @@ h2{
 }
 
 
+.form-messages{
+
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+
+}
 
 .contact-social{
-    width: 100%;   
+    margin: 0 auto;
 }
 
 .buttons{
@@ -216,10 +274,10 @@ textarea{
 }
 
 .buttons{
-    
+
     margin: 0 auto;
     text-align: center;
-    
+
 }
 
 a.btn-default { height: 44px; border-radius: 0; border: 0; width: 250px; text-align: left; margin: 0 5px 10px 0; position: relative; background-color: #FFFFFF; padding: 10px; transition: all .35s; padding: 0; line-height: 47px; overflow: hidden; }
@@ -230,8 +288,33 @@ a.btn-default:after { content: ''; display: block; width: 44px; height: 44px; po
 a.codepen-btn:after{background-color:  #03829a; }
 a.freecodecamp-btn:after { background-color:#556b2f; }
 a.github-btn:after { background-color: #950000; }
+a.email-btn:after { background-color: #007edc; color:black; }
+#email{
+    font-size: 1em;
+}
 a.btn-default:hover, a.btn-default:focus { background-color: #FFFFFF; color: #FFFFFF; }
 a.btn-default:hover:after { width: 100%; }
+
+
+
+.js-copytextarea{
+    width:100%;
+}
+
+a.email-btn{
+    height: 44px; border-radius: 0; border: 0; width: 250px; text-align: left; margin: 0 5px 10px 0; position: relative; background-color: #FFFFFF; padding: 10px; transition: all .35s; padding: 0; line-height: 47px; overflow: hidden;
+    
+}
+
+a.email-btn i{display: block; float: left; position: absolute; left: 12px; top: 10px; font-size: 24px; color: #FFFFFF; position: relative; z-index: 1; }
+
+a.email-btn span{
+    position: relative; z-index: 1; padding-left: 30px; 
+}
+
+a.email-btn:after{
+     content: ''; display: block; width: 44px; height: 44px; position: absolute; top: 0; left: 0; z-index: 0; transition: all .35s; 
+}
 
 /*----------Footer----------*/
 footer{
@@ -239,5 +322,5 @@ footer{
     background-color: rgba(164, 164, 164, 0.31);
     height: 100%;
     text-align: center;
-    font-size: 80%;
+    font-size: 1.2em;
 }
