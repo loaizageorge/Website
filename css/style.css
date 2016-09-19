@@ -167,11 +167,6 @@ h2{
     margin-bottom: 20px;
 }
 
-
-
-
-
-
 .caption{
     position: relative;
     overflow: hidden;
@@ -183,6 +178,7 @@ h2{
     display: block;
     min-width: 100%;
     max-width: 100%;
+    
     height: auto;
 }
 
@@ -289,31 +285,17 @@ a.codepen-btn:after{background-color:  #03829a; }
 a.freecodecamp-btn:after { background-color:#556b2f; }
 a.github-btn:after { background-color: #950000; }
 a.email-btn:after { background-color: #007edc; color:black; }
-#email{
-    font-size: 1em;
-}
 a.btn-default:hover, a.btn-default:focus { background-color: #FFFFFF; color: #FFFFFF; }
 a.btn-default:hover:after { width: 100%; }
 
-
-
-.js-copytextarea{
-    width:100%;
+.email h4{
+    display: inline-block;
 }
 
-a.email-btn{
-    height: 44px; border-radius: 0; border: 0; width: 250px; text-align: left; margin: 0 5px 10px 0; position: relative; background-color: #FFFFFF; padding: 10px; transition: all .35s; padding: 0; line-height: 47px; overflow: hidden;
+#email-icon{
+    color: #007edc;
+    margin-right:5px;
     
-}
-
-a.email-btn i{display: block; float: left; position: absolute; left: 12px; top: 10px; font-size: 24px; color: #FFFFFF; position: relative; z-index: 1; }
-
-a.email-btn span{
-    position: relative; z-index: 1; padding-left: 30px; 
-}
-
-a.email-btn:after{
-     content: ''; display: block; width: 44px; height: 44px; position: absolute; top: 0; left: 0; z-index: 0; transition: all .35s; 
 }
 
 /*----------Footer----------*/
