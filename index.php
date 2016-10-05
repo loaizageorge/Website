@@ -2,27 +2,23 @@
 <html lang="en">
 
 <head>
-    <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    
     <meta charset="utf-8">
     <title>George Loaiza</title>
     <meta name="description" content="">
     <meta name="author" content="">
-    <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- FONTS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
     <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-    <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+   
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- SCRIPTS------------------>
+   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -57,7 +53,7 @@
                     </a> </div>
         </div>
     </header>
-    <!-- ABOUT -->
+    
     <section id="about" class="clearfix">
         <h2>About Me</h2>
         <div class="container">
@@ -97,7 +93,7 @@
             </div>
         </div>
     </section>
-    <!-- ------------------------GALLERY------------------------------->
+    
     <section id="gallery" class="clearfix">
         <div class="container">
             <div class="row">
@@ -166,7 +162,7 @@
             </div>
         </div>
     </section>
-    <!-- ------------------------CONTACT------------------------------->
+   
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -232,7 +228,7 @@
             </div>
         </div>
     </section>
-    <!-- ------------------------Footer------------------------------->
+   
     <footer>
         <p>Coded with <i class="fa fa-heartbeat" aria-hidden="true"></i> from Spring Valley</p>
     </footer>
