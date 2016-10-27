@@ -11,7 +11,7 @@
 
 section{
     padding-bottom: 35px;
-    padding-top: 35px;
+    padding-top: 45px;
 }
 
 
@@ -390,16 +390,25 @@ footer{
 
 @media only screen and (max-width: 768px){
     nav{
-        padding: 0px;
-        padding-top: 15px;
+        margin: 0;
+        padding: 0 px;
+        overflow: hidden;
+        background-color: rgba(46, 42, 42,1.0);
+        backface-visibility: visible;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        width: 100%;   
     }
     
-    nav ul{
-        padding: 0px;
-    }
     nav li{
+        list-style: none;
+        display: inline;
+        color: white;
         margin: 5px;
+        font-size: .9em; 
     }
+    
     .logo,
     .rest{
         float: none;
