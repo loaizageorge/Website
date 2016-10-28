@@ -23,9 +23,6 @@ html,body{
     overflow-x: hidden;
 }
 
-p{
-    font-size: 0.8em;
-}
 
 body{
     
@@ -60,10 +57,16 @@ nav li{
     display: inline;
     color: white;
     margin: 20px;
-    font-size: .9em; 
 }
-nav a:link,
-nav a:hover,
+nav a:link{
+     color:white;
+    text-decoration: none;   
+}
+
+nav a:hover{
+    color: #007edc;
+}
+
 nav a:active,
 nav a:visited{
     color:white;
@@ -114,7 +117,7 @@ header{
 
 h1{
     margin: 0;
-    font-size: 3em;
+    font-size: 2.2em;
     font-weight: 300;
     color: white;
     text-transform: uppercase;
@@ -124,7 +127,15 @@ h1{
 
 h2{
     color: #007edc;
-    font-size: 2em;
+    font-size: 1.8em;
+}
+
+h3{
+    font-size: 1.125em;
+}
+
+p{
+    0.9em;
 }
 
 .btn-round{
@@ -188,9 +199,6 @@ h2{
 
 }
 
-#about p{
-    font-size: 1.3rem;
-}
 
 #about-blurb{
     text-align: left;
@@ -339,6 +347,10 @@ h2{
     margin: 0 auto;
 }
 
+#send-btn{
+    background-color: #007edc;
+}
+
 .buttons{
     margin: 0 auto;
     text-align: center;
@@ -390,14 +402,28 @@ footer{
     background-color: rgba(164, 164, 164, 0.31);
     height: 100%;
     text-align: center;
-    font-size: 1.2em;
+    
 }
 
 /*========================
 =======MEDIA QUERIES======
 =========================*/
 
+@media only screen and (max-width: 1200px){
+    
+}
+
+@media only screen and (max-width: 992px){
+    body{
+        font-size: 18px;
+    }
+    
+}
+
 @media only screen and (max-width: 768px){
+    body{
+        font-size: 16px;
+    }
     nav{
         margin: 0;
         padding: 0 px;
@@ -415,7 +441,6 @@ footer{
         display: inline;
         color: white;
         margin: 5px;
-        font-size: .75em; 
     }
     
     .logo,
@@ -424,12 +449,5 @@ footer{
         display: block;
         text-align: center;
     }
-    .caption-gh,
-    .caption-cp{
-        float: none;
-        display: block;
-    }
-    #about p{
-    font-size: 0.9rem;
-}
+   
 }
