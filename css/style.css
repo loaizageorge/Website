@@ -23,6 +23,10 @@ html,body{
     overflow-x: hidden;
 }
 
+p{
+    font-size: 0.8em;
+}
+
 body{
     
     text-align: center;
@@ -236,7 +240,6 @@ h2{
     display: block;
     min-width: 100%;
     max-width: 100%;
-    
     height: auto;
 }
 
@@ -290,6 +293,12 @@ h2{
     background: rgba(0,0,0,.7);
 }
 
+.caption-gh{
+    float: left;
+}
+.caption-cp{
+    float: right;
+}
 
 /*----------CONTACT----------*/
 
@@ -393,7 +402,7 @@ footer{
         margin: 0;
         padding: 0 px;
         overflow: hidden;
-        background-color: rgba(46, 42, 42,1.0);
+        background-color: rgba(46, 42, 42,0.8);
         backface-visibility: visible;
         position: fixed;
         top: 0;
@@ -406,7 +415,7 @@ footer{
         display: inline;
         color: white;
         margin: 5px;
-        font-size: .9em; 
+        font-size: .75em; 
     }
     
     .logo,
@@ -415,4 +424,12 @@ footer{
         display: block;
         text-align: center;
     }
+    .caption-gh,
+    .caption-cp{
+        float: none;
+        display: block;
+    }
+    #about p{
+    font-size: 0.9rem;
+}
 }
