@@ -69,6 +69,14 @@ nav a:active{
     color: #007edc;
 }
 
+a.nav-active{
+    color: #007edc;
+}
+
+nav-active{
+    color: #007edc;
+}
+
 .logo{
     float: left;
     
