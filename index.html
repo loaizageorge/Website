@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- SCRIPTS------------------>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -28,13 +27,13 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <nav>
            <div class="container-fluid">
            <div class="row">
             <ul>
                <div class="logo">
-                <li><a href="#"> <i id="spaceman" class="fa fa-2x fa-grav" aria-hidden="true"></i> George Loaiza</a></li></div>
+                <li><a href="#header"> <i id="spaceman" class="fa fa-2x fa-grav" aria-hidden="true"></i> George Loaiza</a></li></div>
                 <div class="rest">
                     <li><a href="#about">About</a></li>
                     <li><a href="#gallery">Projects</a></li>
@@ -45,22 +44,24 @@
         </div>
         </nav>
         
-        <div class="hero-text-box clearfix">
+        <div id ="hero" class="hero-text-box clearfix">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
                         <h1>George Loaiza </h1></div>
                 </div>
                 <div class="col-xs-12">
-                    <h2>Front End Developer</h2></div> <a class="btn-round btn-round-ghost" href="#gallery">
+                    <h2>Front End Developer</h2></div> 
+                      <a class="btn-round btn-round-ghost js--scroll-to-gallery" href="#">
                        Check out my work
-                    </a> <a class="btn-round btn-round-full " href="#contact">
+                    </a> 
+                      <a class="btn-round btn-round-full js--scroll-to-contact " href="#">
                        Get in touch
                     </a> </div>
         </div>
     </header>
     <!-- ABOUT -->
-    <section id="about" class="clearfix">
+    <section id="about" class="js--section-about clearfix">
         <h2>About Me</h2>
         <div class="container">
             <div class="row">
@@ -101,7 +102,7 @@
         </div>
     </section>
     <!-- ------------------------GALLERY------------------------------->
-    <section id="gallery" class="clearfix">
+    <section id="gallery" class="js--section-gallery clearfix">
         <div class="container">
             <div class="row">
                 <h2>Projects</h2>
@@ -216,7 +217,7 @@
         </div>
     </section>
     <!-- ------------------------CONTACT------------------------------->
-    <section id="contact">
+    <section id="contact" class="js--section-contact">
         <div class="container">
             <div class="row">
                 <h2>Contact Me</h2>
@@ -288,5 +289,5 @@
 </body>
 
 </html>
-<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
