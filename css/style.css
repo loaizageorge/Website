@@ -213,17 +213,6 @@ p{
     margin-top: -50px;
 }
 
-.icons{
-  display:inline-block;
-}
-
-.icon{
-    font-size: 500%;
-}
-.icon-block{
-  display:inline-block;
-}
-
 
 /*******GALLERY******/
 
@@ -368,6 +357,10 @@ textarea{
     margin: 0 auto;
     text-align: center;
 
+}
+
+.fa-free-code-camp{
+    margin-left: -5px;
 }
 
 a.btn-default { height: 44px; border-radius: 0; border: 0; width: 250px; text-align: left; margin: 0 5px 10px 0; position: relative; background-color: #FFFFFF; padding: 10px; transition: all .35s; padding: 0; line-height: 47px; overflow: hidden; }
