@@ -451,6 +451,10 @@ footer {
     text-align: center;
 }
 
+#copyright{
+    font-size: .7em;
+}
+
 
 /*========================
 =======MEDIA QUERIES======
