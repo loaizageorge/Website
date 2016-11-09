@@ -203,6 +203,7 @@ p {
     margin: 0 auto;
     height: auto;
     width: 70%;
+    display: inline;
     
     
         
@@ -281,7 +282,7 @@ p {
 }
 
 .caption:hover::before {
-    background: rgba(0, 0, 0, .7);
+    background: rgba(0, 0, 0, .85);
 }
 
 .caption-gh {
@@ -290,6 +291,24 @@ p {
 
 .caption-cp {
     float: right;
+}
+
+.gallery-website{
+    display: block;
+    text-align: center;
+}
+#gallery a{
+    list-style: none;
+}
+
+#gallery a:link,
+#gallery a:visited {
+    text-decoration: none;
+}
+
+#gallery a:hover,
+#gallery a:active {
+    color: #007edc;
 }
 
 
