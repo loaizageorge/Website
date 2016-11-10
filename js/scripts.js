@@ -12,7 +12,7 @@
 $(document).ready(function(){
    
    $('.js--scroll-to-gallery').click(function(){
-		$('html, body').animate({scrollTop: $('.js--section-gallery').offset().top-10}, 1200);
+		$('html, body').animate({scrollTop: $('.js--section-gallery').offset().top-50}, 1200);
        
 	});
     
@@ -29,7 +29,7 @@ $(document).ready(function(){
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
            if (target.length) {
              $('html,body').animate({
-                 scrollTop: target.offset().top-28
+                 scrollTop: target.offset().top-50
             }, 1000);
             return false;
         }
