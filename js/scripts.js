@@ -17,7 +17,7 @@ $(document).ready(function(){
 	});
     
      $('.js--scroll-to-contact').click(function(){
-		$('html, body').animate({scrollTop: $('.js--section-contact').offset().top}, 1200);
+		$('html, body').animate({scrollTop: $('.js--section-contact').offset().top-50}, 1200);
        
 	});
     
