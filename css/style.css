@@ -101,10 +101,10 @@ nav-active {
 /****** LANDING ******/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.7)), url(/images/gallery/hero.jpg);
-    height: 90vh;
-    background-size: cover;
-    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/gallery/hero.jpg);
+    height: 85vh;
+    background-size:cover;
+    background-position:center;
     background-repeat: no-repeat;
 }
 
@@ -489,10 +489,13 @@ footer {
     }
 }
 
-@media only screen and (max-width: 768px) {
+/* MOBILE/XS */
+
+@media only screen and (max-width: 569px) {
     body {
         font-size: 16px;
     }
+    
     nav {
         margin: 0;
         padding: 0;
